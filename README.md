@@ -17,6 +17,9 @@ SimonSaysColors es un juego tipo Simon, donde el jugador debe repetir una secuen
 5. El juego avanza aumentando la longitud de la secuencia cada ronda.
 6. Si te equivocas, el juego termina.
 
+![Juego](images/Juego.png)
+
+
 ## Tecnologías usadas
 
 - HTML5
