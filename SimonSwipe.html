@@ -13,6 +13,7 @@
 <body>
     <div id="overlay"></div>
     <header>Simon Swipe game</header>
+    
     <fieldset>
         <legend>Field dimensions</legend>
         <label for="rows">Rows</label>
@@ -24,12 +25,16 @@
         <input type="submit" value="Start" id="submit">
         <input type="button" value="Restart" id="restart" onclick="location.reload()">
     </fieldset>
-    <div id="counters">
-        <div id="chrono"></div>
-        <div id="score"></div>
+    <div id="game-container">
+        <div id="message"></div>
+        <div id="field"></div>
+        <div id="bottom-bar">
+            <div id="chrono">Seconds: 0</div>
+            <div id="score">Score: 0</div>
+        </div>
     </div>
-    <div id="message"></div>
-    <div id="field"></div>
+
 </body>
+
 
 </html>

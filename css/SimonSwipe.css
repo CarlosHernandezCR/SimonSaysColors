@@ -8,24 +8,13 @@ header{
 
 fieldset{
     margin-bottom: 2%;
-}
-
-#counters ,#field{
-    float: left;
-    font-size: larger;
-    margin-right: 1%;
+    text-align: center;
 }
 
 #message{
     font-weight: bold;
-    float: left;
+    text-align: center;
     width: 90%;
-}
-
-#chrono, #score {
-    min-width: 120px;
-    padding: 5px;
-    display: inline-block;
 }
 
 .buttonGrid {
@@ -53,4 +42,28 @@ fieldset{
     z-index: 100;
     display: none;
     pointer-events: all; 
+}
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#field {
+    position: relative;
+    margin-top: 20px;
+}
+
+#bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#chrono, #score {
+    font-size: large;
+    padding: 5px;
 }
